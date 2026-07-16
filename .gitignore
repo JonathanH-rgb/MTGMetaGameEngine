@@ -98,6 +98,19 @@ application-local.properties
 *.env
 
 ##############################
+## Terraform
+##############################
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+*.tfvars
+*.tfvars.json
+.terraformrc
+terraform.rc
+
+##############################
 ## Miscellaneous
 ##############################
 *.log
