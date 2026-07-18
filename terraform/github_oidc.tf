@@ -3,9 +3,9 @@
 #pipeline, the mechanism for aws to recognize that is my piepline is the oidc protocol
 
 variable "github_repository" {
-  description = "GitHub repo allowed to assume the CI role, as \"owner/name\"."
+  description = "GitHub OIDC subject"
   type        = string
-  default     = "JonathanH-rgb/MTGMetaGameEngine"
+  default     = "JonathanH-rgb@56855593/MTGMetaGameEngine@1301817909"
 }
 
 resource "aws_iam_openid_connect_provider" "github" {
