@@ -5,7 +5,7 @@
 variable "github_repository" {
   description = "GitHub repo allowed to assume the CI role, as \"owner/name\"."
   type        = string
-  default     = "JonathanH-rgb/mtgMetaGameEngine"
+  default     = "JonathanH-rgb/MTGMetaGameEngine"
 }
 
 resource "aws_iam_openid_connect_provider" "github" {
