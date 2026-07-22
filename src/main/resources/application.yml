@@ -1,6 +1,13 @@
 spring:
   application:
     name: metagame-engine
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    open-in-view: false
+    properties:
+      hibernate:
+        format_sql: true
 
 server:
   port: 8080
