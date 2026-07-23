@@ -18,6 +18,21 @@ production-shaped: containerized, deployed to AWS via Terraform, shipped by CI/C
 
 ---
 
+## Roadmap
+
+Built infra-first: a deployable skeleton shipped to the cloud *before* real features, then
+data and the query feature layered on top.
+
+| Phase | Status | Focus |
+|---|---|---|
+| **1 — Walking skeleton + infra** | Done | Deployable app on AWS with full CI/CD before any real feature. |
+| **2 — Real data in** | In progress | Hand-designed schema + resilient, idempotent ingestion. |
+| **3 — Metagame feature** | Planned | Co-occurrence + budget queries, tuned for performance. |
+| **4 — Harden & document** | Planned | Error handling, metrics, tests, architecture docs. |
+| **5 — Stretch** | Bonus | Kubernetes, observability, deeper analysis. |
+
+---
+
 ## Requirements
 
 - **JDK 25** (`java -version`)
