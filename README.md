@@ -89,3 +89,5 @@ Dockerfile               Multi-stage build (JDK build stage → JRE runtime)
 terraform/               ECR, GitHub OIDC + CI role, App Runner
 .github/workflows/ci.yml Test → build → push image (OIDC, no stored keys)
 ```
+## Database schema:
+<img width="1421" height="672" alt="Untitled" src="https://github.com/user-attachments/assets/ddde9de0-21d9-4b6a-8f4d-83cddf3c5100" />
